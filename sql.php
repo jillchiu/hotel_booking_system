@@ -36,8 +36,3 @@
 
 		return $mysqli;
 	}
-
-
-?>
-
-
