@@ -63,23 +63,17 @@
 		} 
 	//if user exists, login and go to main page
 		else { 
-		
-			$row2 = $result->fetch_object();
-		
+        
 			$_SESSION['login'] = "true";
-		
+
 			$_SESSION['login_name'] = $id;
 			$_SESSION['pass'] = $pass;
-		
-			$_SESSION['type'] = $row2->type;
-		
+
+			$_SESSION['type'] = $row['type'];
+
 			header('Location:main.php');
-		
-			
-		
-		
-		
 		}
+		
 	}else{
 		
 		echo "<html>
