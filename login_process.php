@@ -71,7 +71,7 @@
 			$_SESSION['login_name'] = $id;
 			$_SESSION['pass'] = $pass;
 		
-			$_SESSION['type'] = $row->type;
+			$_SESSION['type'] = $row2->type;
 		
 			header('Location:main.php');
 		
