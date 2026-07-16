@@ -146,22 +146,15 @@ This project gave me practical experience with:
 * Hardware and software integration
 * Project documentation
 
-# ⚠ Limitations
+# 🧪 Future Improvements
 
-This project was developed as a university final year project.
-
-Compared with modern production systems, several areas could be improved:
-
-* No MVC architecture
-* Limited error handling
-* Repeated business logic
-* Minimal code abstraction
-* No REST API
-* No frontend framework
-* Limited security validation
-* RFID prototype is not fully integrated with the web application
-
-These limitations are intentionally preserved because they reflect my programming experience at that stage.
+* Refactor into MVC architecture
+* Introduce centralized error handling
+* Build RESTful APIs
+* Replace PHP rendering with a modern frontend
+* Connect RFID devices directly to the booking database
+* Add automatic room recommendation when reservations fail
+* Improve authentication and security
 
 # 🚀 How My Development Has Evolved
 
